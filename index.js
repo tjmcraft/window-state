@@ -7,6 +7,8 @@ const LoggerUtil = require('./util/LoggerUtil');
 
 module.exports = function (options) {
 
+	const app = electron.app || electron.remote.app;
+
 	const DEFAULT_WINDOW_CONFIG = {
 		x: undefined,
 		y: undefined,
@@ -19,7 +21,7 @@ module.exports = function (options) {
 	const logger = LoggerUtil('%c[WindowState]', 'color: #d59215; font-weight: bold', false);
 
 	const config = new Config({
-		configDir: launcherDir,
+		configDir: app.getPath('userData'),
 		configName: 'window.state',
 		defaultConfig: DEFAULT_WINDOW_CONFIG,
 		logger: logger,
