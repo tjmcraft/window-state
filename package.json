@@ -1,0 +1,16 @@
+{
+  "name": "window-state",
+  "version": "1.0.0",
+  "description": "Electron window state keeper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "MakAndJo",
+  "license": "MIT",
+  "dependencies": {
+    "@tjmc/config": "^1.0.6",
+    "electron": "^30.0.6"
+  }
+}
