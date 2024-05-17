@@ -2,7 +2,7 @@
   "name": "@tjmc/window-state",
   "version": "1.0.0",
   "description": "Electron window state keeper",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "electron test"
   },
@@ -14,5 +14,9 @@
   },
   "devDependencies": {
     "electron": "^30.0.6"
-  }
+  },
+  "files": [
+    "!**/.*",
+    "src/*"
+  ]
 }

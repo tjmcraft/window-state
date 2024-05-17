@@ -2,7 +2,7 @@ const { app, BrowserWindow } = require('electron');
 
 function createWindow() {
 	// Initialize window state
-	let windowState = require('../index')({
+	let windowState = require('../src')({
 		width: 1280,
 		height: 720
 	});
