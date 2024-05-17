@@ -1,5 +1,5 @@
 {
-  "name": "window-state",
+  "name": "@tjmc/window-state",
   "version": "1.0.0",
   "description": "Electron window state keeper",
   "main": "index.js",
